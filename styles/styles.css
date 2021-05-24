@@ -30,10 +30,9 @@ body{
 }
 
 .hero .hero-img{
-    max-width: 400px;
     display: block;
     margin: auto;
-    padding: 20px 20px 20px 20px;
+  
 }
 
 .hero .hero-heading{
