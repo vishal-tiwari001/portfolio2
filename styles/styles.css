@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+:root{
+    --primary-color:#5519a3;    ;
+    --off-blue:#691fca;
+    --dark-gray: #6B7280;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    
+}
+
+
+
+/* Text-color */
+
+
+.text-color{
+    color:white;
+    background-color: black;
+}
+
+
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: #f8faff;
+    padding: 0.5rem 0rem;
+}
+
+/* lists */
+.list-no-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline; 
+    padding: 0rem 1rem;   
+}
+
+.list-no-bullet li a{
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    /* color: white; */
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    padding: 10px;
+    font-weight:bolder;
+    font-size: large;
+
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color:black;
+}
+
+.navigation .link-active{
+    font-weight: 800;
+}
+
+.navigation ul {
+    padding-inline-start: 1px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.link-secondary{
+    padding: 0.5rem;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+}
+
+/* container */
+.container{
+    padding: 0.5rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+} 
+
+/* sections */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.off-blue{
+    background-color: var(--off-blue);
+}
+
+
+/* para */
+
+.list-no-bullet .project-text{
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 0.5rem 0rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    margin: 0%;
+    padding-inline-start: 0;
+}
+
+.footer img{
+    width : 20px;
+}
