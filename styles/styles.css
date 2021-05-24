@@ -58,7 +58,7 @@ body{
 /* navigation */
 .navigation{
     background-color: var(--primary-color);
-    /* color: white; */
+    color: white;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -97,7 +97,7 @@ body{
 .link-primary{
     background-color: var(--primary-color);
     padding: 0.5rem;
-    color: white;
+    color: rgb(253, 253, 253);
     border-radius: 0.5rem;
     font-weight: bold;
 }
@@ -161,4 +161,37 @@ body{
 
 .footer img{
     width : 20px;
+}
+
+
+/* project.html */
+
+.pro{
+    padding:auto;
+    font-family: monospace;
+}
+
+.page{
+    font-size: 16px;
+    padding: auto;
+    list-style: none;
+}
+
+.footer-project {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: rgb(12, 4, 4);
+    text-align: center;
+  }
+
+.button{
+    
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: rgb(253, 253, 253);
+    border-radius: 0.5rem;
+    font-weight: bold;
 }
