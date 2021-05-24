@@ -32,7 +32,7 @@ body{
 .hero .hero-img{
     display: block;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: #3a1369 5px 7px 5px 7px;
 }
 
